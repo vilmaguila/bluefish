@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div>
     <the-sessions-header title="Available Sessions"></the-sessions-header>
     <session-list :sessions="singSessions"></session-list>
   </div>

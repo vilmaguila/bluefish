@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <md-list>
     <sing-session
       v-for="item in sessions"
       :key="item.id"
@@ -8,7 +8,7 @@
       :time="item.time"
       :place="item.place"
     ></sing-session>
-  </ul>
+  </md-list>
 </template>
 
 <script>
