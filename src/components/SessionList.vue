@@ -1,7 +1,7 @@
 <template>
   <ul>
     <sing-session
-      v-for="item in singSessions"
+      v-for="item in sessions"
       :key="item.id"
       :title="item.title"
       :desc="item.desc"

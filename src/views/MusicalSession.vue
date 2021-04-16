@@ -1,16 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is a page for Musical Teaching sessions</h1>
+    <the-sessions-header title="Available Sessions"></the-sessions-header>
     <session-list :sessions="singSessions"></session-list>
   </div>
 </template>
 
 <script>
 import SessionList from "@/components/SessionList.vue";
+import TheSessionsHeader from "@/components/TheSessionsHeader.vue";
 
 export default {
   components: {
     SessionList,
+    TheSessionsHeader,
   },
   data() {
     return {
