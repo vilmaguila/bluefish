@@ -1,18 +1,28 @@
 <template>
-	<div>
-		<md-toolbar>
-			<h3 class="md-title">{{ title }}</h3>
-		</md-toolbar>
-	</div>
+	<header>
+		<h3>{{ title }}</h3>
+	</header>
 </template>
 
 <script>
 export default {
-	name: 'TheSessionsHeader',
-	props: ['title']
-}
+	name: "TheSessionsHeader",
+	props: ["title"],
+};
 </script>
 
 <style scoped>
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: #640032;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+header h3 {
+  color: white;
+  margin: 0;
+}
 </style>
