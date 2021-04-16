@@ -1,10 +1,12 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/sessions">Sessions</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+	<div id="app">
+		<md-tabs md-sync-route>
+			<md-tab id="tab-home" md-label="Home" to="/" exact> </md-tab>
+			<md-tab id="tab-sessions" md-label="Sessions" to="/sessions" exact>
+			</md-tab>
+			<md-tab id="tab-about" md-label="About" to="/about" exact> </md-tab>
+		</md-tabs>
+
+		<router-view />
+	</div>
 </template>
