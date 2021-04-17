@@ -5,9 +5,9 @@
 		</md-card-header>
 
 		<md-card-content>
-			{{ desc }}<br />
-			{{ time }}<br />
-			{{ place }}
+			<li>{{ desc }}</li>
+			<li>{{ time }}</li>
+			<li>{{ place }}</li>
 		</md-card-content>
 	</md-card>
 </template>

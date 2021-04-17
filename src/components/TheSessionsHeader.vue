@@ -15,7 +15,7 @@ export default {
 header {
   width: 100%;
   height: 5rem;
-  background-color: #640032;
+  background-color: #c99dbf;
   display: flex;
   justify-content: center;
   align-items: center;
